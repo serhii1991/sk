@@ -1,0 +1,51 @@
+@keyframes glitch-effect1 {
+	0% {
+		left: -2px;
+		top: -2px;
+	}
+	25% {
+		left: 2px;
+		top: 0px;
+	}
+	50% {
+		left: -1px;
+		top: 2px;
+	}
+	75% {
+		left: 1px;
+		top: -1px;
+	}
+	100% {
+		left: 0px;
+		top: -2px;
+	}
+}
+
+@keyframes glitch-effect2 {
+	0% {
+		left: 0px;
+		top: -2px;
+	}
+	25% {
+		left: 1px;
+		top: -1px;
+	}
+	50% {
+		left: -1px;
+		top: 2px;
+	}
+	75% {
+		left: 2px;
+		top: 0px;
+	}
+	100% {
+		left: -2px;
+		top: -2px;
+	}
+}
+
+@keyframes animate {
+	from {
+		width: 0;
+	}
+}
