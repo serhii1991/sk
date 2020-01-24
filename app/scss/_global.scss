@@ -89,7 +89,7 @@ li {
 
 .slider-link {
 	margin-left: 0;
-	width: 100%;
+	width: 320px;
 	text-align: center;
 	padding: 15px;
 	&::before {
@@ -102,6 +102,20 @@ li {
 		width: 24px;
 		height: 24px;
 		right: 140px;
+	}
+}
+
+.swiper {
+	&-container {
+		padding: 40px 0 0;
+		width: 1100px;
+    height: 100%;
+	}
+	&-slide {
+		max-width: 350px;
+		width: 100%;
+		background-color: #fff;
+		padding: 5px;
 	}
 }
 

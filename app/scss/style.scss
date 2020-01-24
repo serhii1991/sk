@@ -434,12 +434,21 @@
 	}
 	&__slider {
 		padding: 40px 40px 0;
+		&-inner {
+			width: 1000px;
+    	height: 100%;
+		}
 		&-item {
 			max-width: 350px;
 			width: 100%;
+			background-color: #fff;
+			padding: 5px;
 		}
 		&-img {
 			margin-bottom: 15px;
+			img {
+				max-width: 100%;
+			}
 		}
 		&-title {
 			padding: 10px;

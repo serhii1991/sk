@@ -1,7 +1,16 @@
 $(function() {
 
-	$('.menu__btn').on('click', function() {
-		$('.header__menu-list').slideToggle();
+	var swiper = new Swiper('.swiper-container', {
+		effect: 'coverflow',
+		grabCursor: true,
+		centeredSlides: true,
+		slidesPerView: 'auto',
+		coverflowEffect: {
+			rotate: 50,
+			stretch: 0,
+			depth: 100,
+			modifier: 1,
+			slideShadows : true,
+		}
 	});
-
 });
