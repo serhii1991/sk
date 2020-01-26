@@ -188,7 +188,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding: 60px 0;
+	padding: 80px 0;
 	&__content {
 		max-width: 720px;
 	}
@@ -198,7 +198,7 @@
 		letter-spacing: 1px;
 		font-family: 'Cutive Mono', monospace;
 		font-weight: 700;
-		margin-bottom: 50px;
+		margin-bottom: 80px;
 		position: relative;
 		text-transform: uppercase;
 		&::before {
@@ -236,7 +236,7 @@
 	background-size: cover;
 	background-position: center;
 	background-color: #2e2e2e;
-	padding: 60px 0;
+	padding: 80px 0;
 	&__content {
 		display: flex;
 		justify-content: space-between;
@@ -249,7 +249,7 @@
 		letter-spacing: 1px;
 		font-family: 'Cutive Mono', monospace;
 		font-weight: 700;
-		margin-bottom: 50px;
+		margin-bottom: 80px;
 		position: relative;
 		text-transform: uppercase;
 		&::before {
@@ -412,14 +412,14 @@
 
 .work {
 	background-color: #2e2e2e;
-	padding: 60px 0;
+	padding: 80px 0;
 	&__title {
 		color: #cdcdcd;
 		font-size: 30px;
 		letter-spacing: 1px;
 		font-family: 'Cutive Mono', monospace;
 		font-weight: 700;
-		margin-bottom: 50px;
+		margin-bottom: 80px;
 		position: relative;
 		text-transform: uppercase;
 		&::before {
@@ -457,6 +457,39 @@
 			color: #fff;
 			background-color: #1877f2;
 		}
+	}
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++	testimonials 	++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.testimonials {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0;
+	&__title {
+		color: #cdcdcd;
+		font-size: 30px;
+		letter-spacing: 1px;
+		font-family: 'Cutive Mono', monospace;
+		font-weight: 700;
+		margin-bottom: 80px;
+		position: relative;
+		text-transform: uppercase;
+		&::before {
+			content: "";
+			position: absolute;
+			width: 50px;
+			height: 5px;
+			background-color: #ffab00;
+			top: 40px;
+			left: 0;
+		}
+	}
+	&__inner {
+		padding: 0 40px;
 	}
 }
 
