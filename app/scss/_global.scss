@@ -89,7 +89,7 @@ li {
 
 .slider-link {
 	margin-left: 0;
-	width: 320px;
+	display: block;
 	text-align: center;
 	padding: 15px;
 	&::before {
@@ -101,14 +101,13 @@ li {
 		background-image: url(../img/icons/keyboard_arrow_right.svg);
 		width: 24px;
 		height: 24px;
-		right: 140px;
+		right: 20px;
 	}
 }
 
 .swiper {
 	&-container {
 		padding: 40px 0 0;
-		width: 1100px;
 		height: 100%;
 	}
 	&-slide {
@@ -117,10 +116,22 @@ li {
 		background-color: #fff;
 		padding: 5px;
 	}
+	&-pagination {
+		width: 300px !important;
+		left: 0;
+		right: 0;
+		margin: auto;
+		margin-top: 20px;
+		&-bullet {
+			opacity: 1;
+			margin: 0 2px;
+		}
+	}
 }
 
 .tabs {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-between;
 	background-color: #222;
@@ -128,6 +139,7 @@ li {
 		max-width: 100%;
 		width: 100%;
 		cursor: pointer;
+		flex-basis: 50%;
 		&.active {
 			background-color: #292929;
 			img {
@@ -157,7 +169,7 @@ li {
 
 .tab-item {
 	display: none;
-	padding: 50px 0;
+	padding: 50px 10px;
 	&.active-tab {
 		display: block;
 	}

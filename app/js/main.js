@@ -11,8 +11,18 @@ $(function() {
 			depth: 100,
 			modifier: 1,
 			slideShadows : true,
-		}
-	});
+		},
+		// breakpoints: {
+  //   800: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 40
+  //   }
+  // }
+  pagination: {
+  	el: '.swiper-pagination',
+  	dynamicBullets: true,
+  },
+});
 
 
 	$('.wrapper .tab').on('click', function(event) {

@@ -505,6 +505,7 @@
 	&__data {
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 		font-size: 20px;
 		a {
 			color: #fff;
@@ -515,7 +516,7 @@
 				background-color: #ffb828;
 			}
 			& + a {
-				margin-left: 50px;
+				margin-left: 40px;
 			}
 		}
 	}
