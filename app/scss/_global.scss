@@ -188,6 +188,24 @@ header {
 	border-bottom: solid 5px #ffab00;
 }
 
+.header__menu-btn {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -30px;
+	right: 10px;
+	display: none;
+	div {
+		width: 30px;
+		height: 2px;
+		margin: 5px;
+		background-color: #fff;
+		display: block;
+	}
+}
+
+
+
 
 
 // font-family: 'Inconsolata', monospace;

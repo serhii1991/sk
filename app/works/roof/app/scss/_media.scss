@@ -1,0 +1,533 @@
+/**************************************			1200 px 				****************************************************/
+
+@media (max-width: 1200px) {
+	.gallery,
+	.our-work {
+		min-height: 600px;
+		&__wrapper {
+			min-height: 600px;
+		}
+	}
+}
+
+/**************************************			1020 px 				****************************************************/
+
+@media (max-width: 1020px) {
+	.header .menu__btn {
+		display: block;
+	}
+	.header__menu {
+		border-top: solid 1px #efefef;
+		border-bottom: solid 1px #efefef;
+		display: none;
+		position: absolute;
+		top: 103px;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		text-align: center;
+		li  {
+			display: block;
+			padding: 10px;
+			& + li {
+				margin-left: 0;
+				border-top: solid 1px #efefef;
+			}
+		}
+	}
+
+	.banner {
+		&__inner {
+			min-height: 575px;
+		}
+	}
+
+	.gallery,
+	.our-work {
+		min-height: 300px;
+		&__wrapper {
+			min-height: 300px;
+		}
+	}
+
+	.count {
+		&__content {
+			max-width: 540px;
+			&-title {
+				font-size: 30px;
+				line-height: 40px;
+			}
+			&-text {
+				font-size: 20px;
+			}
+			&-list {
+				font-size: 16px;
+			}
+		}
+	}
+
+	.contact {
+		&__inner {
+			flex-wrap: wrap;
+		}
+		&__map {
+			min-height: 400px;
+			iframe {
+				min-height: 400px;
+			}
+		}
+		&__form {
+			max-width: 100%;
+			min-height: 400px;
+		}
+	}
+}
+
+/**************************************			960 px 				****************************************************/
+
+@media (max-width: 960px) {
+	.work-price__table {
+		flex-wrap: wrap;
+		table {
+			max-width: 100%;
+		}
+	}
+}
+
+/**************************************			930 px 				****************************************************/
+
+@media (max-width: 930px) {
+	.services {
+		&__inner {
+			flex-wrap: wrap;
+		}
+		&__title {
+			margin-bottom: 60px;
+			font-size: 25px;
+			line-height: 28px;
+		}
+		&__item {
+			margin-bottom: 30px;
+			&-text {
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+		}
+	}
+
+
+	.count {
+		padding: 50px 0;
+		&__inner {
+			flex-wrap: wrap;
+		}
+		&__content {
+			max-width: 100%;
+			&-list {
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	.about {
+		padding: 50px 0;
+	}
+}
+
+/**************************************			820 px 				****************************************************/
+
+@media (max-width: 820px) {
+	.form {
+		padding: 100px 0;
+		&__inner {
+			max-width: 100%;
+			margin: 0 auto;
+			background-repeat: no-repeat;
+			background-position: 350px bottom;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		&__description {
+			max-width: 100%;
+			width: 100%;
+			padding-left: 40px;
+			text-align: center;
+			&::before {
+				display: none;
+			}
+			span {
+				display: inline-block;
+				font-size: 23px;
+				font-family: "Open Sans", sans-serif;
+				&.span-quaranty {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.our-work {
+		&__title {
+			padding: 0 10px;
+			font-size: 30px;
+			line-height: 35px;
+			margin-bottom: 60px;
+		}
+	}
+
+	.partners__title {
+		font-size: 30px;
+		margin-bottom: 25px;
+	}
+
+	.partners {
+		padding: 50px 0 0;
+		background-image: none !important;
+	}
+
+	.partners__inner {
+		flex-wrap: wrap;
+	}
+
+	.footer {
+		&__inner {
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		&__contact {
+			text-align: center;
+			max-width: 100%;
+			margin-bottom: 40px;
+			span {
+				& + span {
+					margin-left: 20px;
+				}
+			}
+		}
+	}
+}
+
+/**************************************			760 px 				****************************************************/
+
+@media (max-width: 760px) {
+	.gallery,
+	.our-work {
+		&__inner {
+			flex-wrap: wrap;
+		}
+		&__item {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			&--1 {
+				width: 100%;
+				min-height: 300px;
+			}
+		}
+		&__wrapper {
+			min-height: 500px;
+			width: 100%;
+		}
+	}
+
+	.partners__item {
+		&--1,
+		&--2,
+		&--3,
+		&--4 {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+/**************************************			683 px 				****************************************************/
+
+@media (max-width: 682px) {
+	.footer {
+		&__contact {
+			span {
+				display: block;
+				& + span {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}
+
+/**************************************			650 px 				****************************************************/
+
+@media (max-width: 650px) {
+	.header__contact {
+		a {
+			&:last-child {
+				display: none;
+			}
+		}
+	}
+
+	.banner {
+		&__title {
+			font-size: 28px;
+			span {
+				font-size: 55px;
+			}
+		}
+		&__text {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		&__price {
+			font-size: 20px;
+		}
+		&__content {
+			max-width: 520px;
+			min-height: 300px;
+			padding: 40px 0 0;
+		}
+	}
+
+
+	.form {
+		padding: 35px 0;
+	}
+
+	.price__title {
+		line-height: 30px;
+		font-size: 25px;
+	}
+
+	.partners {
+		padding: 50px 0;
+		&__title {
+			line-height: 35px;
+		}
+	}
+
+	.about .to-top  {
+		display: none;
+	}
+}
+
+/**************************************			559 px 				****************************************************/
+
+@media (max-width: 559px) {
+	.banner {
+		&__inner {
+			min-height: 400px;
+		}
+		&__title {
+			font-size: 16px;
+			padding-bottom: 10px;
+			margin-bottom: 5px;
+			span {
+				display: block;
+				font-size: 30px;
+				margin-bottom: 5px;
+			}
+		}
+		&__text {
+			font-size: 15px;
+			margin-bottom: 0;
+		}
+		&__price {
+			font-size: 14px;
+		}
+		&__content {
+			max-width: 355px;
+			min-height: 211px;
+			padding: 25px 0 0;
+		}
+	}
+
+	.form {
+		&__description {
+			padding-left: 0;
+			margin-bottom: 20px;
+			span {
+				font-size: 16px;
+				padding: 0;
+				margin-bottom: 0;
+			}
+		}
+		&__title {
+			font-size: 25px;
+		}
+		form {
+			margin: 0 auto;
+		}
+	}
+
+	.gallery,
+	.our-work {
+		&__item {
+			&--2 {
+				width: 100%;
+				min-height: 300px;
+			}
+			&--3 {
+				width: 100%;
+				min-height: 300px;
+			}
+		}
+		&__wrapper {
+			width: 100%;
+		}
+	}
+
+	.price {
+		&__inner {
+			justify-content: space-around;
+		}
+		&__item {
+			margin-bottom: 0;
+		}
+	}
+
+	.work-price {
+		padding: 35px 0;
+	}
+
+	.work-price__title {
+		line-height: 30px;
+		font-size: 20px;
+	}
+
+	.work-price__text {
+		margin-bottom: 20px;
+		font-size: 13px;
+	}
+
+	.work-price__table table {
+		font-size: 12px;
+	}
+
+	.work-price__table table td {
+		padding: 0 5px;
+		height: 50px;
+	}
+
+	.contact {
+		&__form {
+			padding: 20px 0;
+			form {
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+/**************************************			440 px 				****************************************************/
+
+@media (max-width: 440px) {
+	.about__title {
+		line-height: 40px;
+	}
+
+	.our-work {
+		&__title {
+			font-size: 25px;
+			line-height: 30px;
+			margin-bottom: 40px;
+		}
+	}
+
+	.footer {
+		&__logo {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+/**************************************			430 px 				****************************************************/
+
+@media (max-width: 430px) {
+	.header__logo {
+		width: 100px;
+		img {
+			width: 100px;
+		}
+	}
+	.header__contact {
+		a {
+			font-size: 12px;
+		}
+	}
+	.header .menu__btn {
+		width: 26px;
+		border: solid 2px #444;
+		padding: 3px;
+		span {
+			width: 16px;
+			height: 2px;
+			& + span {
+				margin-top: 3px;
+			}
+		}
+	}
+}
+
+/**************************************			400 px 				****************************************************/
+
+@media (max-width: 400px) {
+	.banner {
+		&__inner {
+			min-height: 250px;
+		}
+		&__title {
+			font-size: 14px;
+			padding-bottom: 5px;
+			margin-bottom: 0;
+			span {
+				display: block;
+				font-size: 20px;
+				margin-bottom: 0;
+			}
+		}
+		&__text {
+			line-height: 20px;
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+		&__price {
+			font-size: 14px;
+			line-height: 20px;
+		}
+		&__content {
+			max-width: 250px;
+			min-height: 147px;
+			padding: 15px 0 0;
+		}
+	}
+}
+
+/**************************************			345 px 				****************************************************/
+
+@media (max-width: 345px) {
+	.footer {
+		&__contact {
+			span {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				a {
+					width: 100%;
+					& + a {
+						margin-left: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+@media (min-width: 1021px) {
+	.header__menu {
+		display: flex !important;
+	}
+}

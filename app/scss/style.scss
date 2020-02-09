@@ -14,6 +14,7 @@
 	padding-top: 20px;
 	padding-bottom: 150px;
 	min-height: 100vh;
+	position: relative;
 	&__top {
 		display: flex;
 		justify-content: space-between;
@@ -27,6 +28,7 @@
 	}
 	&__menu {
 		text-transform: uppercase;
+		position: relative;
 		&-list {
 			display: flex;
 			li {
@@ -120,7 +122,7 @@
 		max-width: 450px;
 		&-list {
 			display: flex;
-			justify-content: space-around;
+			justify-content: center;
 			text-align: center;
 			li {
 				padding: 10px 10px 2px 10px;
@@ -130,6 +132,7 @@
 				justify-content: center;
 				align-items: center;
 				transition: all .3s;
+				margin: 0 10px 10px;
 				img {
 					width: 20px;
 				}
